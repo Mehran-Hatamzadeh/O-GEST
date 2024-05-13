@@ -12,7 +12,9 @@ Setting.Optimizer = "QP" ;
 Setting.Visualization = "ON" ;  
 [ Events, SpatioTemporals , Info ] = O_GEST ( Time , JointsDepth_L , JointsDepth_R , Setting );
 ```
-Note: you need to change the directory of Matlab to where the O-GEST functions are, or you can add all the O-GEST functions into Matlab search path.
+Note: you need to change the directory of Matlab to where the O-GEST functions are, or you can add all the O-GEST functions into Matlab search path. 
+
+Note: The algorithm is developed in Matlab R2022b, but could work in earlier versions as well.
 ## Inputs:
 
 [ Time ]: Is a vertical vector with size of N by 1 
