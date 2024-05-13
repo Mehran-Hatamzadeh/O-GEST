@@ -11,10 +11,7 @@ Signal Processing Toolbox
 
 Optimization Toolbox
 
-To install them, navigate to the Matlab Home ---> Add Ons ---> Get Add-Ons and search for the above mentioned toolboxes to install.
-
-Note: The algorithm is developed in Matlab R2022b, but could work in earlier versions as well.
-
+To install them, navigate to the Matlab Home ---> Add Ons ---> Get Add-Ons and search for the above mentioned toolboxes to install. The current algorithm is developed in Matlab R2022b, but could work in earlier versions as well.
 
 ## How to use:  
 
