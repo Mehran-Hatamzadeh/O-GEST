@@ -4,6 +4,18 @@ O-GEST is an Overground gait events detector for marker-based and markerless ana
 ## Reference: 
 Mehran Hatamzadeh, Laurent Buse, Katia Turcot, Raphael Zory, "O-GEST: Overground gait events detector using B-Spline-based geometric models for marker-based and markerless analysis", Journal of "-------" 
 
+## Requirements
+If you have installed Matlab with all its toolboxes, no other tool is required. However, if you didnt installed all toolboxes or you are using free trial, the below mentioned toolboxes should be installed from the Add-On section of Matlab manually:
+
+Signal Processing Toolbox
+
+Optimization Toolbox
+
+To install them, navigate to the Matlab Home ---> Add Ons ---> Get Add-Ons and search for the above mentioned toolboxes to install.
+
+Note: The algorithm is developed in Matlab R2022b, but could work in earlier versions as well.
+
+
 ## How to use:  
 
 The main function that should be used is O-GEST.mat, which can be executed as follows:
@@ -14,7 +26,6 @@ Setting.Visualization = "ON" ;
 ```
 Note: you need to change the directory of Matlab to where the O-GEST functions are, or you can add all the O-GEST functions into Matlab search path. 
 
-Note: The algorithm is developed in Matlab R2022b, but could work in earlier versions as well.
 ## Inputs:
 
 [ Time ]: Is a vertical vector with size of N by 1 
