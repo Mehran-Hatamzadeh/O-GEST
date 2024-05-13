@@ -36,7 +36,7 @@ One example is included which could be used for familiarization on how to use th
 
 ```sh
 cd("change directory to where the example folder is ... ") 
-load Example.mat
+load Example_Gait.mat
 ``` 
 After loading the data, to run the O-GEST in triple landmark configuration which is the most powerfull configuration, the code below could be used:
 ```sh
