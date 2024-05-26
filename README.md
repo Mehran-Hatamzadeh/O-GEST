@@ -32,11 +32,7 @@ Note: you need to change the directory of Matlab to where the O-GEST functions a
 [ JointsDepth_R ]: Is N by M matrix containing horizontal trajectory of right foot landmarks. Its size is N by 1 in single landmark configuration, N by 2 in dual landmarks configuration, or N by 3 in triple landmarks configuration(see the example section below).               
                 
 [ Setting ]: It has two options, one for visualization (ON) which could be turned (OFF) as well, and the other to select the optimizer (QP or SQP). It is recommended to use QP optimizer which is faster than the SQP.      
-
-
-![tot](https://github.com/Mehran-Hatamzadeh/O-GEST/assets/138072847/4400803a-5e0e-4b08-accc-00df36c87419)
-
-                 
+              
 ## Outputs:
 
 [ Events ]: Contains the time, and location of the detected events for each leg.
@@ -44,6 +40,8 @@ Note: you need to change the directory of Matlab to where the O-GEST functions a
 [ SpatioTemporal ]: Contains the calculated parameters after implementation of the algorithm for each foot, including: gait speed, step length, step time, stride length, stride time, cadence, swing and stance phase percentages during walking.
 
 [ Info ]: Contains the information of fitting for each landmark such as number of control points, sections data and etc.
+
+![tot](https://github.com/Mehran-Hatamzadeh/O-GEST/assets/138072847/4400803a-5e0e-4b08-accc-00df36c87419)
 
 ## Example
 One example is included which could be used for familiarization on how to use the algorithm. the folder of "Example" contains a C3D file named Example_Gait.C3D and its data in .MAT format (only the required data) which are read by BTK. The matlab file (Example_Gait.MAT) contains only the foot markers horizontal trajectory, time vector, and all events that are deceted on the C3D file. To use O-GEST for events detection and comparison with the events that fall on the force plates (there are some events before and after reaching the force plates), three different configurations could be use:
