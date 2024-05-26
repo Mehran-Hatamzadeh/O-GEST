@@ -32,6 +32,10 @@ Note: you need to change the directory of Matlab to where the O-GEST functions a
 [ JointsDepth_R ]: Is N by M matrix containing horizontal trajectory of right foot landmarks. Its size is N by 1 in single landmark configuration, N by 2 in dual landmarks configuration, or N by 3 in triple landmarks configuration(see the example section below).               
                 
 [ Setting ]: It has two options, one for visualization (ON) which could be turned (OFF) as well, and the other to select the optimizer (QP or SQP). It is recommended to use QP optimizer which is faster than the SQP.      
+
+
+![tot](https://github.com/Mehran-Hatamzadeh/O-GEST/assets/138072847/4400803a-5e0e-4b08-accc-00df36c87419)
+
                  
 ## Outputs:
 
