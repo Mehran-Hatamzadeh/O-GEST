@@ -5,7 +5,7 @@ O-GEST is an Overground gait events detector for marker-based and markerless ana
 Mehran Hatamzadeh, Laurent Buse, Katia Turcot, Raphael Zory, "O-GEST: Overground gait events detector using B-Spline-based geometric models for marker-based and markerless analysis", Journal of "-------" 
 
 ## Requirements
-If you have installed Matlab with all its toolboxes, no other tool is required. However, if you didnt installed all toolboxes or you are using free trial, the below mentioned toolboxes should be installed from the Add-On section of Matlab manually:
+If you have installed Matlab with all its toolboxes, no other tool is required. However, if you didn't installed all toolboxes or you are using free trial, the below-mentioned toolboxes should be installed from the Add-On section of Matlab manually:
 
 Signal Processing Toolbox
 
@@ -44,13 +44,13 @@ Note: you need to change the directory of Matlab to where the O-GEST functions a
 ![tot](https://github.com/Mehran-Hatamzadeh/O-GEST/assets/138072847/4400803a-5e0e-4b08-accc-00df36c87419)
 
 ## Example
-One example is included which could be used for familiarization on how to use the algorithm. the folder of "Example" contains a C3D file named Example_Gait.C3D and its data in .MAT format (only the required data) which are read by BTK. The matlab file (Example_Gait.MAT) contains only the foot markers horizontal trajectory, time vector, and all events that are deceted on the C3D file. To use O-GEST for events detection and comparison with the events that fall on the force plates (there are some events before and after reaching the force plates), three different configurations could be use:
+One example is included which could be used for familiarization on how to use the algorithm. the folder of "Example" contains a C3D file named Example_Gait.C3D and its data in .MAT format (only the required data) which are read by BTK. The matlab file (Example_Gait.MAT) contains only the foot markers horizontal trajectory, time vector, and all events that are detected on the C3D file. To use O-GEST for events detection and comparison with the events that fall on the force plates (there are some events before and after reaching the force plates), three different configurations could be use:
 
 ```sh
 cd("change directory to where the example folder is ... ") 
 load Example_Gait.mat
 ``` 
-After loading the data, to run the O-GEST in triple landmark configuration which is the most powerfull configuration, the code below could be used:
+After loading the data, to run the O-GEST in triple landmark configuration which is the most powerful configuration, the code below could be used:
 ```sh
 JointsDepth_L = [ Ankle_L_Horizontal , Toe_L_Horizontal , Heel_L_Horizontal ];
 JointsDepth_R = [ Ankle_R_Horizontal , Toe_R_Horizontal , Heel_R_Horizontal ];
@@ -71,4 +71,4 @@ JointsDepth_R = [ Ankle_R_Horizontal ];
 afterwards, you can use the O-GEST to run on the example, as mentioned in "How to run" Section.
 
 ## Run on C3D
-To run O-GEST on C3D files, the above mentioned procedure, including reading C3D using BTK (Biomechanical ToolKit), extracting foot markers horizontal trajectory and feeding them into O-GEST should be done in Matlab.
+To run O-GEST on C3D files, the above-mentioned procedure, including reading C3D using BTK (Biomechanical Toolkit), extracting foot markers horizontal trajectory and feeding them into O-GEST should be done in Matlab.
