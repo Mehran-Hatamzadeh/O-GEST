@@ -75,7 +75,7 @@ To run O-GEST on C3D files, the above-mentioned procedure, including reading C3D
 
 ## License
 
-(GNU Affero General Public License V3)
+GNU Affero General Public License V3.0
 
 Copyright (C) 2024 Mehran Hatamzadeh
 
