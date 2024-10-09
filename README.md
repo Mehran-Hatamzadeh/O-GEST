@@ -1,8 +1,8 @@
 ## O-GEST
 O-GEST is an Overground gait events detector for marker-based and markerless analysis. It employs B-Spline-based geometric models that imitate the horizontal trajectory of foot landmarks (to smooth them in a pattern-aware manner) and leverages gait-dependent thresholds along with optimal coefficients to detect gait events (foot-strikes, foot-offs), and to compute spatio-temporal parameters in healthy and pathological gait.
 
-## Reference: 
-Mehran Hatamzadeh, Laurent Buse, Katia Turcot, Raphael Zory, "O-GEST: Overground gait events detector using B-Spline-based geometric models for marker-based and markerless analysis", Journal of "-------" 
+## Contributors: 
+Mehran Hatamzadeh, Laurent Buse, Katia Turcot, Raphael Zory 
 
 ## Requirements
 If you have installed Matlab with all its toolboxes, no other tool is required. However, if you don't have all the toolboxes installed or you are using free trial, the below-mentioned toolboxes should be installed from the Add-On section of Matlab manually:
