@@ -17,7 +17,6 @@ To install them, navigate to the Matlab Home ---> Add Ons ---> Get Add-Ons and s
 
 The main function that should be used is O-GEST.mat, which can be executed as follows:
 ```sh
-Setting.Optimizer = "QP" ;
 Setting.Visualization = "ON" ;  
 [ Events, SpatioTemporals , Info ] = O_GEST ( Time , JointsDepth_L , JointsDepth_R , Setting );
 ```
@@ -31,7 +30,7 @@ Note: you need to change the directory of Matlab to where the O-GEST functions a
                 
 [ JointsDepth_R ]: Is N by M matrix containing horizontal trajectory of right foot landmarks. Its size is N by 1 in single landmark configuration, N by 2 in dual landmarks configuration, or N by 3 in triple landmarks configuration(see the example section below).               
                 
-[ Setting ]: It has two options, one for visualization (ON) which could be turned (OFF) as well, and the other to select the optimizer (QP or SQP). It is recommended to use QP optimizer which is faster than the SQP.      
+[ Setting ]: Visualization of the output (ON / OFF).     
               
 ## Outputs:
 
