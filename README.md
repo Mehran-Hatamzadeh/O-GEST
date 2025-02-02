@@ -66,9 +66,6 @@ For single configuration, the code below could be used:
 JointsDepth_L = [ Ankle_L_Horizontal ];
 JointsDepth_R = [ Ankle_R_Horizontal ];
 ```
-
-![tot](https://github.com/Mehran-Hatamzadeh/O-GEST/SingleLandMarks.jpg) 
-
 (or only Toes or Heels instead of Ankles)
 afterwards, you can use the O-GEST to run on the example, as mentioned in "How to run" Section.
 
