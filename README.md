@@ -20,18 +20,18 @@ Setting.Visualization = "ON" ;
 **Note:** You need to change the Matlab directory to where the O-GEST functions are, or add the folder of O-GEST functions to the Matlab search path. 
 
 ## Inputs:
-[ Time ]: Is a vertical vector with a size of N×1 
+**[ Time ]:** Is a vertical vector with a size of N×1 
 
-[ JointsDepth_L ] and [ JointsDepth_R ]: are N×M matrices containing horizontal trajectory of the left and the right foot landmarks. their size is N×1 in single landmark configuration, N×2 in dual landmarks configuration, or N×3 in triple landmarks configuration (see the example section for clarification).  
+**[ JointsDepth_L ]** and **[ JointsDepth_R ]:** are N×M matrices containing horizontal trajectory of the left and the right foot landmarks. their size is N×1 in single landmark configuration, N×2 in dual landmarks configuration, or N×3 in triple landmarks configuration (see the example section for clarification).  
 
-[ Setting ]: Visualization of the output (ON / OFF).     
+**[ Setting ]:** Visualization of the output (ON / OFF).     
               
 ## Outputs:
-[ Events ]: Contains the time and location of the detected events for each leg.
+**[ Events ]:** Contains the time and location of the detected events for each leg.
 
-[ SpatioTemporal ]: Contains the calculated parameters for each foot (gait speed, step length, step time, stride length, stride time, swing and stance phase percentages, etc).
+**[ SpatioTemporal ]:** Contains the calculated parameters for each foot (gait speed, step length, step time, stride length, stride time, swing and stance phase percentages, etc).
 
-[ Info ]: Contains the fitting information for each landmark such as the number of control points, sections data, etc.
+**[ Info ]:** Contains the fitting information for each landmark such as the number of control points, sections data, etc.
 
 ## Example
 One example is included which could be used for familiarization on how to use the algorithm. The folder of "Example" contains a C3D file named Example_Gait.C3D and its data in .MAT format (only the required data) read by Biomechanical-ToolKit (BTK). The Matlab file contains only the foot markers' horizontal trajectory, time vector, and the detected events on the C3D file. To use O-GEST on the example data, three different configurations could be used. We suggest you use the best configurations, either triple landmarks [Toe, Ankle, Heel] or a combination of [Toe, Heel]. The other configurations are only made available for utilization in the absence of some landmarks, and can result in slightly higher errors than the best configurations.
