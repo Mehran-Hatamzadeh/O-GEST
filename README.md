@@ -1,6 +1,6 @@
 ## O-GEST Algorithm
 O-GEST is an automatic overground gait events detector for marker-based and markerless analysis. It employs B-Spline-based geometric models that imitate the horizontal trajectory of foot landmarks (to smooth them in a pattern-aware manner) and leverages gait-dependent thresholds along with optimal coefficients to detect events (foot-strikes and foot-offs) and also to compute spatiotemporal parameters on healthy and pathological gait.
-
+![tot](https://github.com/Mehran-Hatamzadeh/O-GEST/blob/main/Images/All.jpg)
 ## Contributors: 
 Mehran Hatamzadeh, Laurent Buse, Katia Turcot, Raphael Zory 
 
