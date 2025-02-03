@@ -1,5 +1,6 @@
 ## O-GEST Algorithm
 O-GEST is an automatic overground gait events detector for marker-based and markerless analysis. It employs B-Spline-based geometric models that imitate the horizontal trajectory of foot landmarks (to smooth them in a pattern-aware manner) and leverages gait-dependent thresholds along with optimal coefficients to detect events (foot-strikes and foot-offs) and also to compute spatiotemporal parameters on healthy and pathological gait.
+
 ![tot](https://github.com/Mehran-Hatamzadeh/O-GEST/blob/main/Images/All.jpg)
 ## Contributors: 
 Mehran Hatamzadeh, Laurent Buse, Katia Turcot, Raphael Zory 
@@ -44,6 +45,7 @@ load Example_Gait.mat
 JointsDepth_L = [ Toe_L_Horizontal , Ankle_L_Horizontal , Heel_L_Horizontal ];
 JointsDepth_R = [ Toe_R_Horizontal , Ankle_R_Horizontal , Heel_R_Horizontal ];
 ```
+
 ![tot](https://github.com/Mehran-Hatamzadeh/O-GEST/blob/main/Images/TripleLandmarks.jpg)
 
 **Configuration 3:** For dual landmark configuration, the code below could be used:
@@ -52,8 +54,8 @@ JointsDepth_L = [ Toe_L_Horizontal , Heel_L_Horizontal ];
 JointsDepth_R = [ Toe_R_Horizontal , Heel_R_Horizontal ];
 ```
 (or a dual combination of any of them with the Ankles)
-![tot](https://github.com/Mehran-Hatamzadeh/O-GEST/blob/main/Images/DualLandmarks.jpg)
 
+![tot](https://github.com/Mehran-Hatamzadeh/O-GEST/blob/main/Images/DualLandmarks.jpg)
 
 **Configuration 3:** For single landmark configuration, the code below could be used: 
 ```sh
@@ -61,6 +63,7 @@ JointsDepth_L = [ Ankle_L_Horizontal ];
 JointsDepth_R = [ Ankle_R_Horizontal ];
 ```
 (or only Toes or Heels instead of the Ankles)
+
 ![tot](https://github.com/Mehran-Hatamzadeh/O-GEST/blob/main/Images/SingleLandmarks.jpg)
 
 afterward, you can use the O-GEST to run on the example, as mentioned in the "How to run" Section.
