@@ -47,7 +47,7 @@ JointsDepth_R = [ Toe_R_Horizontal , Ankle_R_Horizontal , Heel_R_Horizontal ];
 
 ![tot](https://github.com/Mehran-Hatamzadeh/O-GEST/blob/main/Images/TripleLandmarks.jpg)
 
-**Configuration 3:** For dual landmark configuration, the code below could be used:
+**Configuration 2:** For dual landmark configuration, the code below could be used:
 ```sh
 JointsDepth_L = [ Toe_L_Horizontal , Heel_L_Horizontal ];
 JointsDepth_R = [ Toe_R_Horizontal , Heel_R_Horizontal ];
