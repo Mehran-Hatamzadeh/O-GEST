@@ -34,7 +34,7 @@ Setting.Visualization = "ON" ;
 **[ Info ]:** Contains the fitting information for each landmark such as the number of control points, sections data, etc.
 
 ## Example
-One example is included which could be used for familiarization on how to use the algorithm. The folder of "Example" contains a C3D file named Example_Gait.C3D and its data in .MAT format (only the required data) read by Biomechanical-ToolKit (BTK). The Matlab file contains only the foot markers' horizontal trajectory, time vector, and the detected events on the C3D file. To use O-GEST on the example data, three different configurations could be used. We suggest you use the best configurations, either triple landmarks [Toe, Ankle, Heel] or a combination of [Toe, Heel]. The other configurations are only made available for utilization in the absence of some landmarks, and can result in slightly higher errors than the best configurations.
+One example is included which could be used for familiarization on how to use the algorithm. The folder of "Example" contains a C3D file named Example_Gait.C3D and its data in .MAT format (only the required data) read by [Biomechanical-ToolKit (BTK)](https://github.com/moveck-community/moveck_bridge_btk). The Matlab file contains only the foot markers' horizontal trajectory, time vector, and the detected events on the C3D file. To use O-GEST on the example data, three different configurations could be used. We suggest you use the best configurations, either triple landmarks [Toe, Ankle, Heel] or a combination of [Toe, Heel]. The other configurations are only made available for utilization in the absence of some landmarks, and can result in slightly higher errors than the best configurations.
 ```sh
 cd("change directory to where the example folder is ... ") 
 load Example_Gait.mat
@@ -68,7 +68,7 @@ JointsDepth_R = [ Ankle_R_Horizontal ];
 afterward, you can use the O-GEST to run on the example, as mentioned in the "How to run" Section.
 
 ## Run on C3D
-To run O-GEST on C3D files, foot markers' horizontal trajectory should be read by Biomechanical-ToolKit (BTK). Then, by feeding them into the O-GEST, gait events can be detected and can be overwritten on the same C3D file using the functions that BTK provides.
+To run O-GEST on C3D files, foot markers' horizontal trajectory should be read by Biomechanical-ToolKit (BTK). Then, by feeding them into the O-GEST algorithm according to the above-mentioned instruction, gait events can be detected and can be overwritten on the same C3D file using the functions that BTK provides. [Download BTK](https://github.com/moveck-community/moveck_bridge_btk/releases)
  
 ## License
 
