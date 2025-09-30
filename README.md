@@ -2,9 +2,10 @@
 O-GEST is an automatic overground gait events detector for marker-based and markerless analysis. It employs B-Spline-based geometric models that imitate the horizontal trajectory of foot landmarks (to smooth them in a pattern-aware manner) and leverages gait-dependent thresholds along with optimal coefficients to detect events (foot-strikes and foot-offs) and also to compute spatiotemporal parameters on healthy and pathological gait. O-GEST detects gait events with an overall accuracy of 13.5 ms for foot-strike and 12.6 ms for foot-off on variety of pathologies (Healthy, HOA, Stroke, Parkinson, CP Children).
 
 ## Reference: 
-M. Hatamzadeh, L. Busé, K. Turcot, R. Zory, "O-GEST: Overground gait events detector using b-spline-based geometric models for marker-based and markerless analysis" Journal of Biomechanics, Volume 189, 2025, 112803, https://doi.org/10.1016/j.jbiomech.2025.112803.
 
-M. Hatamzadeh, L. Busé, F. Chorin, P. Alliez, J.D. Favreau, R. Zory, "A kinematic-geometric model based on ankles’ depth trajectory in frontal plane for gait analysis using a single RGB-D camera", Journal of Biomechanics, Volume 145, 2022, 111358, https://doi.org/10.1016/j.jbiomech.2022.111358.
+M. Hatamzadeh, L. Busé, K. Turcot, R. Zory, 2025, "O-GEST: Overground gait events detector using b-spline-based geometric models for marker-based and markerless analysis" J. Biomechanics, 189, 112803, https://doi.org/10.1016/j.jbiomech.2025.112803.
+
+M. Hatamzadeh, L. Busé, F. Chorin, P. Alliez, J.D. Favreau, R. Zory, 2022, "A kinematic-geometric model based on ankles’ depth trajectory in frontal plane for gait analysis using a single RGB-D camera", J. Biomechanics, 145, 111358, https://doi.org/10.1016/j.jbiomech.2022.111358.
 
 ## Requirements
 This algorithm requires the below-mentioned toolboxes to be installed:
